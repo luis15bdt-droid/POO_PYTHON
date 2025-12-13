@@ -1,9 +1,8 @@
 class editorial ():
-    def nombre (self):
-        print ("")
-    def direccion (self):
-        print ("")
-    def telefono (self):
-        print ("")
-    def vender (Self):
-        return ("")
+    def __init__(self, nombre, direccion, telefono):
+        self.nombre = nombre
+        self.direccion = direccion
+        self.telefono = telefono
+        
+    def vender(self):
+        print(f"El producto ha sido vendido}")
