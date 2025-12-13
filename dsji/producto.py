@@ -7,18 +7,10 @@ class PRoducto:
         self.año_edicion = año_edicion
         self.preferencias = preferencias 
     def vender (self):
-        return ("Su ")
+        return (f"Su libro a sido vendido por {self.precio} ")
     def comprar (self):
-        return ("")
+        return (f"Usted ha comprado {self.titulo} por {self.precio}")
     def ver_Catalogo (self):
-        return ("")
-    
-    def informacion (self):
-        print (f"El precio del producto es: {self.precio}")
-        print (f"el titutlo del producto es: {self.titulo}")
-        print (f"El autor es: {self.autor}")
-        print (f"Su editorial es: {self.editorial}")
-        print (f"Su año de edicion es {self.año_edicion}")
-        print (f"Y sus preferencias son: {self.preferencias}")
-        
+        return ("Usted esta viendo el catalogo")
+
         
