@@ -5,11 +5,3 @@ class segunda_mano (PRoducto):
         self.clasificacion = clasificacion 
         self.tema = tema
         self.vendedor = vendedor
-    def informacion(self):
-        print ("                ")
-        print ("SEGUNDA MANO")
-        print(f"Su clasificacion es {self.clasificacion}")
-        print (f"Con el tema {self.tema}")
-        print (f"Y su vendedor es {self.vendedor}")
-        return super().informacion()
-
