@@ -1,5 +1,6 @@
 class elindexador ():
     def actualiza_almacen (self):
-        print ("")
+        print ("Actualizando el almacen")
     def envia_resultado_busqueda (self):
-        print ("")
+
+        print ("Enviando resultado de busqueda")
