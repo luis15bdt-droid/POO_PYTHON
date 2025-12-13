@@ -1,17 +1,18 @@
 class elprocesador ():
     def mandar_datos_Venta (self):
-        print ("")
+        print ("Mandando datos de venta")
     def mandar_articulo_online (self):
-        print ("")
+        print ("Mandando articulo online")
     def envia_sugerencia_admin (Self):
-        print ("")
+        print ("Gracias por tu sugerencia, se la enviaremos a la administracion")
     def modificar_stock (self):
-        print ("")
+        print ("Modificando stock")
     def realizar_cobro (self):
-        print ("")
+        print ("Realizando cobro")
     def realizar_pago (Self):
-        print ("")
+        print ("Realizando pago")
     def actualiza_catalogo (self):
-        print ("")
+        print ("Actuaalizando catalogo")
     def realizar_busqueda (Self):
-        print ("")
+
+        print ("realizando busqueda")
