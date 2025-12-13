@@ -5,6 +5,3 @@ class ARticuloOnline (PRoducto):
         self.tema = tema
     def publicar (self):
         return (f"El libro se ha publico con exito hoy {self.año_edicion}")
-    def informacion (self):
-        print (f"El tema del libro es {self.tema}")
-        return super().informacion()
