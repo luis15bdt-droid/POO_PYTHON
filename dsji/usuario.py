@@ -7,15 +7,16 @@ class USuario:
         self.login = login
         self.password = password
     def sugerencia (self):
-        return ("")
+        return (f"{self.nombre} {self.apellido} Ha enviado una sugerencia")
     def leer (self):
-        return("")
+        return(f"{self.nombre} {self.apellido} se encuentra leyendo ")
     def compra (self):
-        return ("")
+        return (f"{self.nombre} {self.apellido} ha realizado una compra")
     def vender (self):
-        return ("")
+        return ("{self.nombre} {self.apellido} ha vendido un producto")
     def reclamo (self):
-        return ("")
+        return ("{self.nombre} {self.apellido} Esta realizando un reclamo")
     
     
         
+
