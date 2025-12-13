@@ -6,9 +6,3 @@ class Novedades (PRoducto):
         self.tema = tema
     def cambiar_clasificacion (self):
         print (f"Su clasificacion ha cambiado a {self.clasificacion}")
-    def informacion(self):
-        print ("             ")
-        print ("NOVEDADES")
-        print (f"Su clasificacion actual es: {self.clasicacion}")
-        print (f"Y su tem es {self.tema}")
-        return super().informacion()
