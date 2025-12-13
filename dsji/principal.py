@@ -1,3 +1,13 @@
 from producto import PRoducto
-from segunda_MAno import segunda_mano
-from
+from libro import libro
+from revista import REvista
+from articulo_segunda_mano import articulo_segunda_mano
+from articulo_online import ARticuloOnline
+from novedades import Novedades
+from usuario import USuario
+from editorial import eleditorial
+from procesador import elprocesador
+from servidor import Servidor
+from indexador import elindexador
+from recolector import elrecolector
+from hilo import elhilo
