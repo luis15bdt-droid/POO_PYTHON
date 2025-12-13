@@ -1,9 +1,10 @@
 class elservidor ():
     def muestra_pag (self):
-        print ("")
+        print ("Mostrando pagina")
     def sugerencias (self):
-        print ("")
+        print ("sugerencia recibida")
     def datos_Compra (self):
-        print ("")
+        print ("Todo listo. Enviando datos de dcompra")
     def datos_venta (self):
-        print ("")
+
+        print ("Enviando datos de venta")
